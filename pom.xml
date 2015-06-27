@@ -5,7 +5,7 @@
   <groupId>io.tiler</groupId>
   <artifactId>tiler-maven-archetype</artifactId>
   <packaging>maven-archetype</packaging>
-  <version>0.1.1</version>
+  <version>0.1.2-SNAPSHOT</version>
   <name>Tiler Maven Archetype</name>
   <description>The Maven archetype for Tiler-based dashboards</description>
   <url>https://github.com/tiler-project/tiler-maven-archetype</url>
