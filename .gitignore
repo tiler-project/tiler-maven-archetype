@@ -9,10 +9,7 @@
 .gradle/
 build/
 target/
-*.releaseBackup
 
 mods/
 
-node_modules/
-
-src/main/resources/static/
+*.versionsBackup
