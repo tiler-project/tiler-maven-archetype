@@ -9,6 +9,12 @@
   <name>${artifactId}</name>
   <description>Description of project</description>
   <url>URL for project</url>
+  <licenses>
+    <license>
+      <name>License name</name>
+      <url>License URL</url>
+    </license>
+  </licenses>
   <developers>
     <developer>
       <name>Developer name</name>
