@@ -7,4 +7,4 @@ install:
 - mvn install -DskipTests=true
 
 script:
-- mvn test
+- mvn test integration-test
