@@ -1,0 +1,14 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+${symbol_pound} This file contains information on where to find the resources of your module during development
+${symbol_pound} This file is used when running your module as you develop - it tells Vert.x where to find
+${symbol_pound} the resources of your module
+
+${symbol_pound} Feel free to edit it if you have a non standard project structure and put the resources of your
+${symbol_pound} module elsewhere
+
+src/main/resources
+target/classes
+target/dependencies
+bin
