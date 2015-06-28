@@ -12,10 +12,11 @@ import org.vertx.java.platform.Verticle;
 
 public class MainVerticle extends Verticle {
   private Logger logger;
+  private JsonObject config;
 
   public void start(final Future<Void> startedResult) {
     logger = container.logger();
-    JsonObject config = container.config();
+    config = container.config();
 
     Async.series()
       .task(handler -> container.deployVerticle("io.tiler.ServerVerticle", config.getObject("server"), 1, AsyncResultHandlerWrapper.wrap(handler)))

@@ -8,3 +8,4 @@ install:
 
 script:
 - mvn test integration-test
+- cd src/test/resources/projects/basic/reference/ && mvn test
